@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="Ubuntu Mgmt" type="ssh/sftp" uuid="d67522e9-cd69-4e82-886d-78003eb30379">
+        <config>
+          <option name="projectRootOnTarget" value="/home/adam.littrell/gocode/src/" />
+          <option name="serverName" value="Ubuntu Mgmt" />
+          <option name="useRsync" value="true" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="compiledExecutablesVolume">
+              <VolumeState>
+                <option name="remotePath" value="/home/adam.littrell/gocode/executables" />
+              </VolumeState>
+            </option>
+            <option name="goPath" value="/home/adam.littrell/go" />
+            <option name="goRoot" value="/usr/bin/go" />
+            <option name="goVersion" value="go1.13.8 linux/amd64" />
+            <option name="projectSourcesVolume">
+              <VolumeState>
+                <option name="remotePath" value="/home/adam.littrell/gocode/sources" />
+              </VolumeState>
+            </option>
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

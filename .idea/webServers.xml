@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b2850dc5-c88e-4941-9401-986b86326914" name="Ubuntu Go Deployment">
+        <fileTransfer rootFolder="/home/adam.littrell/" accessType="SFTP" host="10.111.0.69" port="22" sshConfigId="7a6c954f-0c2d-43b1-8a85-c4083f7efc03" sshConfig="Ubuntu Mgmt">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" isUseRsync="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
